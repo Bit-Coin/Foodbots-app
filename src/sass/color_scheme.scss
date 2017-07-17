@@ -1,0 +1,123 @@
+/*3.1 Preloader*/
+#preloader {
+	background-color:#92278f; 
+}
+/*General links color*/
+a {color:#ec008c;}
+a:hover,a:focus {color: #111;}
+
+/*-------- Content--------*/
+header.sticky{
+	background-color: #92278f;
+}
+.features-content {
+    background-color: #92278f;
+}
+#preloader {
+	background-color:#92278f; 
+}
+.modal-popup {
+	background: #92278f;
+}
+.box_style_2 h2.inner {
+	background-color:#92278f; 
+	color:#fff; 
+}
+/*-------- Buttons --------*/
+a.btn_1, .btn_1{
+	color:#fff;
+	background: #662d91;
+}
+a.btn_1:hover, .btn_1:hover{
+	background:#333;
+}
+a.btn_full, .btn_full{
+	color:#fff;
+	background: #662d91;
+}
+a.btn_full:hover, .btn_full:hover{
+	background:#333;
+}
+a.btn_map{
+	color:#fff;
+	background:#555;
+}
+a.btn_map:hover{
+	background:#333;
+}
+a.btn_side{
+	color:#fff;
+	background:#555;
+}
+a.btn_side:hover{
+	background:#333;
+	color:#fff;
+}
+a.btn_full_outline{
+	color:#662d91;
+	background:none;
+	border:2px solid #662d91;
+}
+a.btn_full_outline:hover{
+	border:2px solid #333;
+	color:#333;
+}
+a.button_intro, .button_intro  {
+	color:#fff !important;
+	background: #662d91;
+}
+a.button_intro:hover, .button_intro:hover {
+	background: #fff;
+	color:#662d91 !important;
+}
+a.button_intro.outilne, .button_intro.outline  {
+	border: 2px solid #fff;
+	color:#fff;
+	background: none;
+}
+#cart_box a.btn_full, #cart_box .btn_full{
+	background: #662d91;
+}
+#cart_box a.btn_full:hover, #cart_box .btn_full:hover{
+	background: #333;
+}
+#cart_box a.btn_full_outline{
+	color:#662d91;
+	background:none;
+	border:2px solid #662d91;
+}
+#cart_box a.btn_full_outline:hover{
+	color:#333;
+	background:none;
+	border:2px solid #333;
+}
+.high_light{
+	background:#8560a8;
+}
+
+/* All styles MENU 
+================================================== */
+@media only screen and (min-width: 992px) {
+
+.main-menu ul ul li:hover > a {background-color:#f9f9f9;color:#662d91; padding-left:15px;}
+	
+}
+
+@media only screen and (max-width: 991px) {
+	
+#header_menu{background-color:#92278f;}
+
+.main-menu ul li a:hover,
+a.show-submenu:hover,
+a.show-submenu:focus,
+a.show-submenu-mega:hover,
+a.show-submenu-mega:focus{color:#ec008c !important;background-color:#f9f9f9;}	
+	
+.main-menu ul li  {border-bottom: 1px solid #ededed;color: #fff;}
+
+.main-menu li,
+.main-menu a {display: block;color:#555 !important;}
+
+.main-menu a:hover {color:#662d91 !important;}
+	
+}

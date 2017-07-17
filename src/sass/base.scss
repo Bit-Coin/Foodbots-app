@@ -1,0 +1,28 @@
+@import "animate.min.scss"; 								/* Animate */
+@import "bootstrap.min.scss"; 								/* Main Bootstrap */
+@import "style.scss";                   /* Main theme styles */
+@import "menu.scss";										/* Menu styles */
+@import "responsive.scss";									/* Responsive */
+@import "elegant_font/elegant_font.min.scss";				/* Icon pack */
+@import "fontello/css/fontello.min.scss";					/* Icon pack */
+@import "magnific-popup.scss";								/* Lightbox & dialog script */
+@import "pop_up.scss";										/* Popup Advertising */
+@import "skins/square/grey.scss";
+@import "admin.scss";
+@import "dropzone.scss";
+@import "bootstrap3-wysihtml5.min.scss";
+@import "blog.scss";
+@import "slider-pro.min.scss";                   /*  Gallery*/
+@import "layerslider/css/layerslider.scss";
+@import "fontello/css/animation.scss";
+    
+    
+    
+@import "custom.scss";                    /* Your custom css in order to apply updates easly */
+/*
+How to change colors
+1) uncomment one of the color variation below
+DONE!
+*/
+
+/*@import url("color_scheme.css");					 	 			Your color scheme*/
