@@ -21,7 +21,8 @@
     "react-tab-panel": "^2.2.7",
     "react-tabs": "^0.8.3",
     "react-z-index": "^2.3.0",
-    "superagent": "^3.5.2"
+    "superagent": "^3.5.2",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "react-devtools": "^2.0.12",
@@ -31,6 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
