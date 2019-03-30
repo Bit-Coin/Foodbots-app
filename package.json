@@ -15,13 +15,14 @@
     "react-input": "^4.1.3",
     "react-input-component": "^0.1.0",
     "react-modal": "^1.7.7",
-    "react-native": "^0.43.4",
+    "react-native": "^0.59.0",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
     "react-tab-panel": "^2.2.7",
     "react-tabs": "^0.8.3",
     "react-z-index": "^2.3.0",
-    "superagent": "^3.5.2"
+    "superagent": "^3.5.2",
+    "snyk": "^1.143.5"
   },
   "devDependencies": {
     "react-devtools": "^2.0.12",
@@ -31,6 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
