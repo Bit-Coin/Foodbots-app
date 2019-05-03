@@ -1,0 +1,97 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-dev > express > serve-static > send > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > compression > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > connect-timeout > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > body-parser > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > send > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > finalhandler > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > compression > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > serve-index > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > express-session > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > morgan > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > serve-static > send > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > morgan > debug:
+        patched: '2019-05-03T07:59:26.126Z'
+  'npm:lodash:20180130':
+    - react-dev > babel-core > lodash:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > babel-register > lodash:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > plist > xmlbuilder > lodash:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > xcode > simple-plist > plist > xmlbuilder > lodash:
+        patched: '2019-05-03T07:59:26.126Z'
+  'npm:mime:20170907':
+    - react-dev > express > send > mime:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > serve-static > send > mime:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > serve-static > send > mime:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > url-loader > mime:
+        patched: '2019-05-03T07:59:26.126Z'
+  'npm:minimatch:20160620':
+    - react-dev > babel-core > minimatch:
+        patched: '2019-05-03T07:59:26.126Z'
+  'npm:ms:20170412':
+    - react-native > connect > body-parser > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > compression > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > send > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > morgan > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > morgan > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > connect-timeout > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > compression > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > finalhandler > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > express-session > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > connect-timeout > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > serve-index > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > serve-static > send > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > send > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > serve-static > send > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-dev > express > serve-static > send > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > serve-static > send > debug > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > serve-favicon > ms:
+        patched: '2019-05-03T07:59:26.126Z'
+  'npm:negotiator:20160616':
+    - react-dev > express > accepts > negotiator:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > compression > accepts > negotiator:
+        patched: '2019-05-03T07:59:26.126Z'
+    - react-native > connect > serve-index > accepts > negotiator:
+        patched: '2019-05-03T07:59:26.126Z'
