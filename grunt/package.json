@@ -14,7 +14,7 @@
     "grunt-sass-globbing": "^1.5.1",
     "grunt-tasks": "^1.0.0",
     "load-grunt-tasks": "^3.4.0",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.15",
     "sass-globbing": "^1.0.0-alpha1"
   }
 }
