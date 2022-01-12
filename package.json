@@ -7,7 +7,7 @@
     "jquery": "^3.2.1",
     "pui-react-alerts": "^8.1.0",
     "react": "^15.5.4",
-    "react-alert": "^2.0.0",
+    "react-alert": "^3.0.0",
     "react-alerts": "^0.3.0",
     "react-bootstrap": "^0.30.8",
     "react-dev": "0.0.1",
